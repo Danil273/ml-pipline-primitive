@@ -25,4 +25,4 @@ x_pol = to_polynom(X, order = 3)
 
 loaded_model = pickle.load(open(model_name, 'rb'))
 result = loaded_model.score(x_pol, y)
-print(f"R2-score: {result}")
+print(f"R2-score: {result}")  
