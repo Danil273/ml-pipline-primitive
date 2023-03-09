@@ -22,4 +22,4 @@ y = np.array(train_data.Temperature).reshape(-1, 1)
 x_pol = to_polynom(X, order = 3)
 reg = LinearRegression().fit(x_pol, y)
 filename = 'model.sav'
-pickle.dump(reg, open(filename, 'wb'))
+pickle.dump(reg, open(filename, 'wb'))  
